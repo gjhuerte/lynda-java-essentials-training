@@ -18,7 +18,7 @@ public class Main {
 
         catch (NumberFormatException e) {
             noErrorsFound = false;
-            System.out.println("Number formatting exception for input string: \"" + input1 +"\"");
+            System.out.println(errorMessage(input1));
         }
 
         try {
@@ -27,12 +27,37 @@ public class Main {
 
         catch (NumberFormatException e) {
             noErrorsFound = false;
-            System.out.println("Number formatting exception for input string: \"" + input2 +"\"");
+            System.out.println(errorMessage(input2));
         }
 
         if(noErrorsFound) {
             chooseOperation(operation, parsedInput1, parsedInput2);
         }
+    }
+
+    public static String displayAnswerMessage(String output) {
+        StringBuilder answer = new StringBuilder();
+        answer.append("The answer is ")
+                .append(output);
+
+        return answer.toString();
+    }
+
+    public static String displayAnswerMessage(double output) {
+        StringBuilder answer = new StringBuilder();
+        answer.append("The answer is ")
+                .append(output);
+
+        return answer.toString();
+    }
+
+    public static String errorMessage(String label) {
+        StringBuilder errorOutput = new StringBuilder();
+        errorOutput.append("Number formatting exception for input string: \"")
+                .append(label)
+                .append("\"");
+
+        return errorOutput.toString();
     }
 
     public static String getInput(String label) {
@@ -48,19 +73,19 @@ public class Main {
         switch (operation) {
             case "+":
                 output = add(input1, input2);
-                operationResult = "The answer is " + output;
+                operationResult = displayAnswerMessage(output);
                 break;
             case "-":
                 output = subtract(input1, input2);
-                operationResult = "The answer is " + output;
+                operationResult = displayAnswerMessage(output);
                 break;
             case "*":
                 output = multiply(input1, input2);
-                operationResult = "The answer is " + output;
+                operationResult = displayAnswerMessage(output);
                 break;
             case "/":
                 output = divide(input1, input2);
-                operationResult = "The answer is " + output;
+                operationResult = displayAnswerMessage(output);
                 break;
             default:
                 operationResult = "Unrecognized operation!";
