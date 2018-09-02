@@ -2,7 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="90b00012-0db6-493f-971b-ad2d5265748f" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/com/example/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/example/java/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Ch08/08_02/MultiArrays/.idea/description.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Ch08/08_02/MultiArrays/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Ch08/08_02/MultiArrays/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Ch08/08_02/MultiArrays/.idea/project-template.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Ch08/08_02/MultiArrays/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Ch08/08_02/MultiArrays/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Ch08/08_02/MultiArrays/MultiArrays.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Ch08/08_02/MultiArrays/src/com/example/java/Main.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -15,7 +22,7 @@
     <session id="899958615">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="2" />
+          <entry key="project.closed" value="3" />
           <entry key="project.open.time.0" value="1" />
           <entry key="project.open.time.2" value="1" />
           <entry key="project.open.time.6" value="1" />
