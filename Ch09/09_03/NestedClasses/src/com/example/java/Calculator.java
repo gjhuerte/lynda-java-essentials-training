@@ -1,0 +1,54 @@
+package com.example.java;
+
+import java.util.Scanner;
+
+import com.example.java.utilities.MathHelper;
+
+public class Calculator {
+
+    public static void main(String[] args) {
+        Calculator calc = new Calculator();
+        calc.calculate();
+    }
+
+    protected void calculate() {
+        InputHelper helper = new InputHelper();
+        String s1 = helper.getInput("Enter a numeric value: ");
+        String s2 = helper.getInput("Enter a numeric value: ");
+        String op = helper.getInput("Choose an operation (+ - * /): ");
+
+        double result = 0;
+
+        try {
+            switch (op) {
+                case "+":
+                    result = MathHelper.addValues(s1, s2);
+                    break;
+                case "-":
+                    result = MathHelper.subtractValues(s1, s2);
+                    break;
+                case "*":
+                    result = MathHelper.multiplyValues(s1, s2);
+                    break;
+                case "/":
+                    result = MathHelper.divideValues(s1, s2);
+                    break;
+                default:
+                    System.out.println("Unrecognized operation!");
+                    return;
+            }
+        } catch (Exception e) {
+            System.out.println("Number formatting exception " + e.getMessage());
+        }
+
+        System.out.println("The answer is " + result);
+    }
+
+    class InputHelper {
+        private String getInput(String label) {
+            System.out.print(label);
+            Scanner input = new Scanner(System.in);
+            return input.nextLine();
+        }
+    }
+}
