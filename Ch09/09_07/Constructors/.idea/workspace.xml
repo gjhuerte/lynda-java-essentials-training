@@ -2,6 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c60a87c2-4fa6-4d33-86ad-c6bbe7db7bb3" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/description.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/project-template.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Constructors.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Constructors/com/example/java/Main.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Constructors/com/example/java/OlivePress.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Constructors/com/example/java/model/Olive.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/example/java/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/example/java/OlivePress.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/example/java/model/Olive.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../../lynda-com-java-essentials-training-2016.docx" beforeDir="false" afterPath="$PROJECT_DIR$/../../../lynda-com-java-essentials-training-2016.docx" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -15,6 +28,7 @@
     <session id="241878848">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
+          <entry key="project.closed" value="1" />
           <entry key="project.open.time.0" value="1" />
           <entry key="project.opened" value="1" />
         </counts>
@@ -136,7 +150,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1535961356696" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1535961397289" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -182,7 +196,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="28" width="1552" height="840" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info id="Favorites" side_tool="true" />
       <window_info id="Image Layers" />
@@ -193,12 +206,12 @@
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Terminal" />
+      <window_info active="true" anchor="bottom" id="Terminal" visible="true" weight="0.32909605" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="bottom" id="Messages" weight="0.32909605" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32909605" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32909605" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
